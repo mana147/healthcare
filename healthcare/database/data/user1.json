@@ -1,0 +1,84 @@
+{
+    "id": "1",
+    "name": "Nguyen Van ABC",
+    "numb": [{
+            "date": "00/01/2020",
+            "status": " nhịp tim tăng cao .",
+            "sensor": {
+                "heartbeat": 123,
+                "oxy": 46,
+                "blood_pressure": 128,
+                "body_temp": 38
+            } ,
+            "info":{
+                "ten": "user1",
+                "gioitinh" : "nam",
+                "tuoi": 20,
+                "chieucao": 180,
+                "cannang" : 96
+            }
+        }, {
+            "date": "01/01/2020",
+            "status": " huyết áp thấp .",
+            "sensor": {
+                "heartbeat": 72,
+                "oxy": 23,
+                "blood_pressure": 444,
+                "body_temp": 123
+            },
+            "info":{
+                "ten": "user1",
+                "gioitinh" : "nam",
+                "tuoi": 20,
+                "chieucao": 180,
+                "cannang" : 96
+            }
+        }, {
+            "date": "02/01/2020",
+            "status": " oxy thấp .",
+            "sensor": {
+                "heartbeat": 11,
+                "oxy": 33,
+                "blood_pressure": 44,
+                "body_temp": 55
+            }
+        }, {
+            "date": "03/01/2020",
+            "status": " yêu cầu khám lại .",
+            "sensor": {
+                "heartbeat": 0,
+                "oxy": 1,
+                "blood_pressure": 2,
+                "body_temp": 3
+            }
+        }, {
+            "date": "04/01/2020",
+            "status": " tái khám bệnh  .",
+            "sensor": {
+                "heartbeat": 0,
+                "oxy": 1,
+                "blood_pressure": 2,
+                "body_temp": 3
+            }
+        }, {
+            "date": "05/01/2020",
+            "status": " bệnh tiểu đường.",
+            "sensor": {
+                "heartbeat": 11,
+                "oxy": 2412,
+                "blood_pressure": 1112,
+                "body_temp": 4233
+            }
+        }, {
+            "date": "06/01/2020",
+            "status": " bệnh mỡ máu.",
+            "sensor": {
+                "heartbeat": 11,
+                "oxy": 2412,
+                "blood_pressure": 1112,
+                "body_temp": 4233
+            }
+        }
+
+    ]
+}
