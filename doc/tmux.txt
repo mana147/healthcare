@@ -1,0 +1,15 @@
+Tạo một session mới có tên:
+
+tmux new -s [name]
+Tạo một session được ghép kênh:
+
+tmux attach #
+Ghép một session vào Tmux có sẵn:
+
+tmux attach -t [name]
+Liệt kê các session tmux:
+
+tmux ls
+Thoát ứng dụng:
+
+exit

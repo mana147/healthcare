@@ -1,0 +1,111 @@
+wifi 080393itc
+
+192.168.0.12 web
+
+192.168.0.11 socket
+
+docker run -p 81:81 -p 8888:8888 -v /var/www/nodejs:/app mattrayner/lamp:latest-1804
+
+docker run -p "80:80" -v /var/www/giaiphapdientuitc:/app mattrayner/lamp:latest-1804
+
+docker run -p "80:80" -v /var/www/giaiphapdientuitc:/app mattrayner/lamp:latest-1804
+
+docker run -p "8081:80" -p "443:443" -v /var/www/healthcare:/app server_web:latest
+
+docker run -p "8081:80" -p "443:443" -v /var/www/hhc_server/healthcare:/app hhc:latest
+
+docker run -p "8081:80" -p "443:443" -v /home/HHC_Server/web_server_healthcare/hhc_server/healthcare:/app hhc:latest
+
+docker run -p "8099:80" -v /var/www/web_quanlykho/quanlykho:/app qlk:latest  
+
+mysqldump -uadmin -p18H1JImYiWZA iot_database > iot_database.sql;
+
+mysqldump -uroot -p iot_database > iot_database.sql;
+
+sudo docker exec -it qlk /bin/bash  /  mysql -uadmin -prKCOo4fqfiF1  / ssh root@192.168.0.12 Itc@1234
+sudo docker exec -it lebd /bin/bash / mysql -uadmin -pR3NQKlDgtamg  / 
+
+=====================================================================
+
+mysql server iot admin 18H1JImYiWZA
+
+mysql -uadmin -pZe9cNQOqh3ug -h<host> -P<port>
+
+server hhc  192.168.1.123 
+mysql -uadmin -pb5dt87p7F1je -h<host> -P<port>
+
+=====================================================================
+
+CREATE USER 'hieu'@'localhost' IDENTIFIED BY 'Hieu761321';
+GRANT ALL PRIVILEGES ON . TO 'hieu'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+content=$(wget localhost:8888 -q -O -) && echo $content
+
+Display name: Hieu Pham
+Username:hieupt@Learnembedded.org
+Password: Kar14130 AmjRrgfDM-Ju#2n
+
+ws://localhost:443
+
+mysql -u  -p database < location/to/your/dump.sql
+
+mysql -u root -p giaiphapdientu < /app/laptrin6_giaiphapdientuitc_vn.sql
+
+sudo docker exec -it iot /bin/bash
+
+sudo docker exec -it gpdt /bin/bash
+
+sudo docker exec -it hhc /bin/bash
+
+php artisan queue:work
+
+giaiphapdientuitc Itc@12345
+
+sudo systemctl start docker
+
+sudo systemctl stop docker
+
+root@103.130.214.67:22
+
+ssh root@103.130.214.6
+
+ssh root@192.168.1.123
+
+ssh chungnt@learnembedded.org
+
+ws://192.168.1.123:443
+
+ps -fA | grep python3
+
+kill -9 (processID) 
+
+103.130.214.67
+
+docker save --output server_web.tar 2579086179b4
+
+docker save -o /server_web.tar 2579086179b4
+
+docker load -i /var/www/docker/server_web.tar
+
+ws://103.130.214.67:443
+
+{"state":"authen","type":"response","values":"id","data":{"id":"us885hw885","password":"admin"}}
+{"state":"authen","type":"response","values":"id","data":{"id":"us04hw04","password":"admin"}}
+
+{"state":"provide","type":"request","value":"get_time"}
+
+{"state":"provide","type":"request","value":"push_sensor","data":{"Heartbeat":111,"oxygen":222,"bloodpressure":333,"bodytemperature":444}}
+
+{"state":"provide","type":"request","value":"get_sensor"}
+
+// ============================================================
+
+solution : fix CentOS can not connect ethernet
+> ip add    ens192 
+> vi /etc/sysconfig/network-scripts/ifcfg-ens192  
+DEVICE="eth0"
+ONBOOT="yes"
+BOOTPROTO="dhcp"
+
+> sudo service network restart

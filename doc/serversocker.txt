@@ -1,0 +1,22 @@
+admin b5dt87p7F1je
+
+ssh root@itc-server.dynu.net
+
+ws://itc-server.dynu.net:443/  
+
+ws://localhost:443/  
+
+
+{"state":"authen","type":"response","value":"get_id","data":{"id":"device0001"}}
+
+{"state":"provide","type":"request","value":"push_sensor","data":{"heartbeat":11,"oxygen":22,"bloodpressure":33,"bodytemperature":444}}
+
+{"state":"provide","type":"request","value":"push_info","data":{"sex":"male","yearold":29,"high":180,"weight":70}}
+
+{"state":"authen","type":"response","value":"website","data":{"id":"us408hw408"}}
+
+{"state":"provide","type":"request","value":"get_sensor"}
+
+{"state":"provide","type":"request","value":"get_info"}
+
+{"state":"provide","type":"request","value":"get_time"}
